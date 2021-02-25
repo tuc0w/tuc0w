@@ -1,10 +1,15 @@
 ### Welcome abord my `secret space station` 🛰️👨‍🚀
 
-🔭 I’m currently working on a complementary corona-app which I will publish in a few days.
+🔭 I’m currently working on a node based pomodoro timer called pomodorojs.
 
-<img align=right src='https://octodex.github.com/images/daftpunktocat-guy.gif' width="100"/><img align=right src='https://octodex.github.com/images/daftpunktocat-thomas.gif' width="100"/>
+⚡ I am Iron Man.
+
+<img align=right src='ironcat.png' width="100"/>
 
 <!--
+<img align=right src='https://octodex.github.com/images/daftpunktocat-guy.gif' width="100"/><img align=right src='https://octodex.github.com/images/daftpunktocat-thomas.gif' width="100"/>
+
+
 **tuc0w/tuc0w** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
