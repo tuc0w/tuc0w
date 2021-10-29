@@ -1,25 +1,3 @@
-### Welcome abord my `secret space station` 🛰️👨‍🚀
+# Welcome abord my `space station` 🛰️👨‍🚀
 
-🔭 I’m currently working on a node based pomodoro timer called pomodorojs.
-
-⚡ I am Iron Man.
-
-<img align=right src='ironcat.png' width="100"/>
-
-<!--
-<img align=right src='https://octodex.github.com/images/daftpunktocat-guy.gif' width="100"/><img align=right src='https://octodex.github.com/images/daftpunktocat-thomas.gif' width="100"/>
-
-
-**tuc0w/tuc0w** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Metrics](https://github.com/tuc0w/tuc0w/blob/master/github-metrics.svg)
