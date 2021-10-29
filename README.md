@@ -10,6 +10,4 @@
     </a>
 </div>
 
-<br />
-
 ![Metrics](https://github.com/tuc0w/tuc0w/blob/master/github-metrics.svg)
