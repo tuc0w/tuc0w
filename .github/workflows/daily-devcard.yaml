@@ -1,0 +1,21 @@
+name: daily-devcard
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  devcard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: devcard
+        uses: dailydotdev/action-devcard@latest
+        with:
+          devcard_id: ${{ secrets.DEVCARD_ID }}
+          commit_branch: devcard
+          commit_message: "Update devcard"
