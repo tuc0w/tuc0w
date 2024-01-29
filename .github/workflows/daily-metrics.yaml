@@ -65,4 +65,4 @@ jobs:
           plugin_steam_games_limit: 1
           plugin_steam_playtime_threshold: 2
           plugin_steam_recent_games_limit: 1
-          plugin_steam_sections: player, most-played, recently-played
+          plugin_steam_sections: most-played, recently-played
