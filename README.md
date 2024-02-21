@@ -5,7 +5,7 @@
         <img
             width="256"
             align="right"
-            src="https://raw.githubusercontent.com/tuc0w/tuc0w/devcard/devcard.svg"
+            src="https://raw.githubusercontent.com/tuc0w/tuc0w/devcard/devcard.png"
         />
     </a>
 </div>
