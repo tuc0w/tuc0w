@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
 
 jobs:
   github-metrics:
@@ -75,7 +75,7 @@ jobs:
           plugin_steam_sections: player, most-played, recently-played
 
           # 16personalities
-          plugin_16personalities: yes
+          plugin_16personalities: no
           plugin_16personalities_url: ${{ secrets.SIXTEEN_PERSONALITIES_URL }}
           plugin_16personalities_sections: personality, profile, traits
           plugin_16personalities_scores: yes
