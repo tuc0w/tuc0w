@@ -23,6 +23,14 @@ jobs:
           config_timezone: Europe/Berlin
           repositories_forks: yes
 
+          # Coding habits
+          plugin_habits: yes
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          plugin_habits_trim: no
+
           # Isometric commit calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
