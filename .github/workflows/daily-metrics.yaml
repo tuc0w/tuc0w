@@ -1,4 +1,4 @@
-name: daily-metrics
+name: generate profile metrics
 
 on:
   workflow_dispatch:
