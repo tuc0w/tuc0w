@@ -1,4 +1,4 @@
-name: daily-devcard
+name: generate daily.dev devcard
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
 
 jobs:
   devcard:
