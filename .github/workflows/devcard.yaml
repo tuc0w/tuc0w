@@ -22,4 +22,4 @@ jobs:
           committer_name: ${{ secrets.COMMIT_USERNAME }}
           commit_branch: devcard
           commit_filename: devcard.png
-          commit_message: "chore: update ${filename}"
+          commit_message: "🪪 update devcard"
