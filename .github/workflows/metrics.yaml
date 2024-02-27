@@ -21,6 +21,9 @@ jobs:
           template: classic
           base: header, activity, community, metadata
           config_timezone: Europe/Berlin
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "📊 update metrics"
           repositories_forks: yes
 
           # Coding habits
