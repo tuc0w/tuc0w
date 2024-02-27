@@ -16,4 +16,4 @@
     </a>
 </div>
 
-![Metrics](https://github.com/tuc0w/tuc0w/metrics/github-metrics.svg)
+![Metrics](https://raw.githubusercontent.com/tuc0w/tuc0w/metrics/github-metrics.svg)
