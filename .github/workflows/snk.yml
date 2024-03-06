@@ -31,7 +31,7 @@ jobs:
 
       # spring theme
       - name: generate github-contribution-grid-snake.svg
-        if: github.event.schedule == '0 */6 * 12,1,2 *'
+        if: github.event.schedule == '0 */6 * 3,4,5 *'
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -41,7 +41,7 @@ jobs:
 
       # summer theme
       - name: generate github-contribution-grid-snake.svg
-        if: github.event.schedule == '0 */6 * 12,1,2 *'
+        if: github.event.schedule == '0 */6 * 6,7,8 *'
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -51,7 +51,7 @@ jobs:
 
       # autumn theme
       - name: generate github-contribution-grid-snake.svg
-        if: github.event.schedule == '0 */6 * 12,1,2 *'
+        if: github.event.schedule == '0 */6 * 9,10,11 *'
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
