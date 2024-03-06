@@ -19,9 +19,12 @@ jobs:
     timeout-minutes: 15
 
     steps:
+      - name: Set current month as environment variable
+        run: echo "MONTH=$(date +'%m')" >> $GITHUB_ENV
+
       # winter theme
       - name: generate github-contribution-grid-snake.svg
-        if: github.event.schedule == '0 */6 * 12,1,2 *'
+        if: github.event.schedule == '0 */6 * 12,1,2 *' || ((github.event_name == 'push' || github.event_name == 'workflow_dispatch') && contains('12 01 02', env.MONTH))
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -31,7 +34,7 @@ jobs:
 
       # spring theme
       - name: generate github-contribution-grid-snake.svg
-        if: github.event.schedule == '0 */6 * 3,4,5 *'
+        if: github.event.schedule == '0 */6 * 3,4,5 *' || ((github.event_name == 'push' || github.event_name == 'workflow_dispatch') && contains('03 04 05', env.MONTH))
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -41,7 +44,7 @@ jobs:
 
       # summer theme
       - name: generate github-contribution-grid-snake.svg
-        if: github.event.schedule == '0 */6 * 6,7,8 *'
+        if: github.event.schedule == '0 */6 * 6,7,8 *' || ((github.event_name == 'push' || github.event_name == 'workflow_dispatch') && contains('06 07 08', env.MONTH))
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -51,7 +54,7 @@ jobs:
 
       # autumn theme
       - name: generate github-contribution-grid-snake.svg
-        if: github.event.schedule == '0 */6 * 9,10,11 *'
+        if: github.event.schedule == '0 */6 * 9,10,11 *' || ((github.event_name == 'push' || github.event_name == 'workflow_dispatch') && contains('09 10 11', env.MONTH))
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
