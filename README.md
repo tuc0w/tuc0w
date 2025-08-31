@@ -13,5 +13,5 @@
         <img src="https://raw.githubusercontent.com/tuc0w/tuc0w/snk/github-contribution-grid-snake.svg" width="652px" alt="Snake">
     </picture>
     <hr width="652px" />
-    <img src="https://raw.githubusercontent.com/tuc0w/tuc0w/metrics/github-metrics.svg" width="652px" alt="Metrics" />
+    <img src="https://github.com/tuc0w/tuc0w/raw/refs/heads/metrics/github-metrics.svg" width="652px" alt="Metrics" />
 </div>
